@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Raleway:wght@300;400;600&display=swap');
+
+.stApp {
+    background: linear-gradient( #360606 0%, #050543 50%);
+    font-family: 'Raleway', sans-serif;
+    
+}
+h1 {
+    margin-top: -3px;
+    font-family: 'Cinzel', serif !important;
+    background: linear-gradient(90deg, #c9a227, #f0d060, #c9a227);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 2.5rem !important;
+    letter-spacing: 3px;
+    padding: 1rem 0;
+}
+.stTextInput > div > div > input {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid #7b2fff !important;
+    border-radius: 8px !important;
+    color: #e0d7ff !important;
+}
+.stMarkdown p { color: #d4c5f0 !important; line-height: 1.8 !important; }
+h2, h3 { font-family: 'Cinzel', serif !important; color: #c9a227 !important; }
+
+header { visibility: hidden; }
+footer { visibility: hidden; }
+[data-testid="stBottomBlockContainer"] {
+margin-bottom: 0px;}
+
+.st-emotion-cache-hzygls {
+        background: linear-gradient(#050543);
+
+}
+
+[data-testid="stChatInputSubmitButton"] {
+    background-color: #7b2fff !important;
+    color: white !important;
+    border-radius: 8px !important;
+    border: none !important;
+    padding: 0.5rem 1.5rem !important;
+    font-size: 1rem !important;
+    transition: background-color 0.3s ease;
+}
+
+[data-testid="stChatInputSubmitButton"]:hover {
+    background-color: #9b4fff !important;
+    cursor: pointer;
+}
+[data-testid="stLayoutWrapper"] {
+text-align: right !important;
+}
